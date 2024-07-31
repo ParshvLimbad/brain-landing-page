@@ -12,14 +12,14 @@ const SectionOne = () => {
   ];
 
   return (
-    <section className="xl:px-28 md:px-12 px-6 bg-white xl:h-[40rem] lg:h-[40rem] md:h-[35rem] h-[35rem] flex xl:flex-row lg:flex-row md:flex-col flex-col xl:justify-between lg:justify-between xl:gap-0 lg:gap-0 gap-12 items-center">
+    <section className="xl:px-28 md:px-12 px-6 bg-white xl:h-[40rem] lg:h-[40rem] md:h-[35rem] h-[90rem] flex xl:flex-row lg:flex-row md:flex-col flex-col xl:justify-between lg:justify-between xl:gap-0 lg:gap-0 gap-12 items-center">
       <div className="flex flex-row justify-center">
         <div>
-          <h2 className="xl:text-[50px] xl:mt-0 lg:mt-0 mt-12 md:text-[35px] text-[27px] xl:text-left md:text-center lg:text-left text-center xl:max-w-[29rem] md:max-w-[33rem] text-black tracking-tight leading-10 font-semibold mb-2">
+          <h2 className="xl:text-[50px] lg:w-[23rem] xl:mt-0 lg:mt-0 mt-12 md:text-[35px] text-[25px] xl:text-left md:text-center lg:text-left text-center xl:max-w-[29rem] md:max-w-[33rem] text-black tracking-tight leading-[50px] font-semibold mb-1">
             Unlock Your Potential with
             <span className="text-[#0AE448]"> Brain.</span>
           </h2>
-          <p className="lg:max-w-[28rem] md:max-w-[33rem] md:text-[14px] text-[14px] xl:text-left md:text-center lg:text-left text-center">
+          <p className="xl:max-w-[28rem] lg:max-w-[25rem] md:max-w-[33rem] md:text-[14px] text-[14px] xl:text-left md:text-center lg:text-left text-center">
             Empower your future by learning new skills and knowledge. Take
             charge of your personal growth and development. By mastering new
             abilities, you can transform your life and open up new
@@ -43,6 +43,28 @@ const SectionOne = () => {
             <div
               className="absolute top-[-60px] p-2 bg-white hover:bg-[#0AE448] rounded-full right-[-60px] duration-500 ease-in-out cursor-pointer"
               id="arrow-icon"
+            >
+              <ArrowOutwardIcon />
+            </div>
+          </div>
+        ))}
+      </div>
+      <div className="flex xl:hidden lg:hidden md:hidden flex-col gap-3 w-full overflow-hidden justify-between">
+        {courses.map((course) => (
+          <div
+            className="h-40 w-full bg-black ease-in-out duration-500 rounded-xl overflow-hidden relative"
+            id="block-cont"
+          >
+            <img src={course.image} className="h-full w-full object-cover" />
+            <p
+              className="font-normal text-right absolute bottom-1 left-8 w-[22rem] pr-4 -translate-x-1/2 -translate-y-1/2 text-2xl z-10 text-black pb-1"
+              id="img-text-sm"
+            >
+              {course.name}
+            </p>
+            <div
+              className="absolute top-[-60px] p-2 bg-white hover:bg-[#0AE448] rounded-full right-[-60px] duration-500 ease-in-out cursor-pointer"
+              id="arrow-icon-sm"
             >
               <ArrowOutwardIcon />
             </div>

@@ -23,6 +23,13 @@
   }
 }
 
+#arrow-icon-sm {
+  @apply top-3 right-3;
+}
+#img-text-sm {
+  @apply rotate-[0deg] left-12 bg-[#0AE448] w-[23rem] text-black rounded-full;
+}
+
 #img-text {
 }
 #block-cont {

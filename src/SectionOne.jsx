@@ -12,10 +12,10 @@ const SectionOne = () => {
   ];
 
   return (
-    <section className="xl:px-28 md:px-12 px-6 bg-white xl:h-[40rem] lg:h-[40rem] md:h-[35rem] h-[90rem] flex xl:flex-row lg:flex-row md:flex-col flex-col xl:justify-between lg:justify-between xl:gap-0 lg:gap-0 gap-12 items-center">
+    <section className="xl:px-44 md:px-12 px-6 bg-white xl:h-[40rem] lg:h-[40rem] md:h-[35rem] h-[50rem] flex xl:flex-row lg:flex-row md:flex-col flex-col xl:justify-between lg:justify-between xl:gap-0 lg:gap-0 gap-12 items-center">
       <div className="flex flex-row justify-center">
         <div>
-          <h2 className="xl:text-[50px] lg:w-[23rem] xl:mt-0 lg:mt-0 mt-12 md:text-[35px] text-[25px] xl:text-left md:text-center lg:text-left text-center xl:max-w-[29rem] md:max-w-[33rem] text-black tracking-tight leading-[50px] font-semibold mb-1">
+          <h2 className="xl:text-[45px] xl:max-w-[28rem] lg:max-w-[25rem] md:max-w-[33rem] xl:mt-0 lg:mt-0 md:text-[35px] text-[25px] xl:text-left md:text-center lg:text-left text-center text-black tracking-tight leading-[50px] font-semibold mb-1">
             Unlock Your Potential with
             <span className="text-[#0AE448]"> Brain.</span>
           </h2>

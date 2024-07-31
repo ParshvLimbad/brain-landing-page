@@ -12,13 +12,14 @@ const SectionOne = () => {
   ];
 
   return (
-    <section className="xl:px-44 md:px-12 px-6 bg-white h-[40rem] flex flex-row justify-between items-center">
-      <div className="flex flex-row">
+    <section className="xl:px-28 md:px-12 px-6 bg-white xl:h-[40rem] lg:h-[40rem] md:h-[35rem] h-[35rem] flex xl:flex-row lg:flex-row md:flex-col flex-col xl:justify-between lg:justify-between xl:gap-0 lg:gap-0 gap-12 items-center">
+      <div className="flex flex-row justify-center">
         <div>
-          <h2 className="text-[40px] text-[#0AE448] tracking-tight leading-10 font-semibold max-w-[25rem]">
-            Unlock Your Potential with a Brain
+          <h2 className="xl:text-[50px] xl:mt-0 lg:mt-0 mt-12 md:text-[35px] text-[27px] xl:text-left md:text-center lg:text-left text-center xl:max-w-[29rem] md:max-w-[33rem] text-black tracking-tight leading-10 font-semibold mb-2">
+            Unlock Your Potential with
+            <span className="text-[#0AE448]"> Brain.</span>
           </h2>
-          <p className="max-w-[28rem]">
+          <p className="lg:max-w-[28rem] md:max-w-[33rem] md:text-[14px] text-[14px] xl:text-left md:text-center lg:text-left text-center">
             Empower your future by learning new skills and knowledge. Take
             charge of your personal growth and development. By mastering new
             abilities, you can transform your life and open up new
@@ -26,7 +27,7 @@ const SectionOne = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-row gap-3 w-[40rem] overflow-hidden justify-between">
+      <div className="xl:flex lg:flex md:flex hidden flex-row gap-3 w-[40rem] overflow-hidden justify-between">
         {courses.map((course) => (
           <div
             className="h-80 w-[13rem] hover:w-[23rem] bg-black ease-in-out duration-500 rounded-xl overflow-hidden relative"

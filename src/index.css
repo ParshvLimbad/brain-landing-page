@@ -4,9 +4,15 @@
 
 @layer utilities {
   .button-side-hover {
-    @apply relative overflow-hidden rounded-full border border-[1px] border-black px-4 py-2 font-medium uppercase transition-colors bg-black;
+    @apply relative overflow-hidden rounded-full border border-[1px] border-black px-4 py-2 font-medium transition-colors bg-black;
     @apply before:absolute before:left-0 before:top-0 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-full before:bg-[#0AE448] before:transition-transform before:duration-500 before:content-[''];
     @apply text-white hover:text-black before:hover:scale-x-100;
+    @apply z-[1] before:-z-[1];
+  }
+  .categories-side-hover {
+    @apply relative overflow-hidden rounded-full px-4 py-2 font-medium transition-colors bg-white;
+    @apply before:absolute before:left-0 before:top-0 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:rounded-full before:bg-[#0AE448] before:transition-transform before:duration-500 before:content-[''];
+    @apply text-black before:hover:scale-x-100;
     @apply z-[1] before:-z-[1];
   }
   .link-underline {

@@ -23,7 +23,7 @@ const Navbar = () => {
       </ul>
       <div className="flex flex-row gap-4 items-center">
         <p className="link-underline xl:flex lg:flex hidden">Login</p>
-        <button className="button-side-hover">Free Trial</button>
+        <button className="button-side-hover">Join Today!</button>
         <Sheet>
           <SheetTrigger className="xl:hidden lg:hidden">
             <MenuIcon />

@@ -63,7 +63,7 @@ const SectionTwo = () => {
         Unlock Your Potential with Brain.
       </h2> */}
       <h2
-        className="reveal-type mt-12 lg:text-[50px] md:text-[35px] text-[25px] text-center text-white tracking-tight leading-[50px] font-semibold w-full"
+        className="reveal-type mt-12 lg:text-[50px] md:text-[35px] text-[22px] text-center text-white tracking-tight leading-[50px] font-semibold w-full"
         data-bg-color="black"
         data-fg-color="white"
       >

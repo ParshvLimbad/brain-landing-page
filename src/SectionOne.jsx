@@ -35,7 +35,7 @@ const SectionOne = () => {
           >
             <img src={course.image} className="h-full w-full object-cover" />
             <p
-              className="font-normal text-right absolute bottom-1 left-8 w-[22rem] pr-4 -translate-x-1/2 -translate-y-1/2 text-2xl z-10 text-black pb-1"
+              className="font-normal text-right absolute bottom-1 left-8 w-[22rem] pr-3 -translate-x-1/2 -translate-y-1/2 text-2xl z-10 text-black pb-1"
               id="img-text"
             >
               {course.name}

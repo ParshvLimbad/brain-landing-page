@@ -141,7 +141,7 @@ const SectionTwo = () => {
             key={image.name}
             className="flex relative w-full aspect-square overflow-hidden"
           >
-            <CardTitle className="absolute top-5 left-5 z-10 text-[#0AE448] duration-300 ease-in-out">
+            <CardTitle className="absolute top-4 left-5 z-10 text-[#0AE448] duration-300 ease-in-out xl:text-[25px] lg:text-[25px] md:text-[25px] text-[20px]">
               {image.name}
             </CardTitle>
             <div
@@ -161,7 +161,6 @@ const SectionTwo = () => {
           </Card>
         ))}
       </div>
-
       {/* <div className="categories-side-hover text-center">
         View all of the categories that we provide.
       </div> */}

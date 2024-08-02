@@ -141,16 +141,16 @@ const SectionTwo = () => {
             key={image.name}
             className="flex relative w-full aspect-square overflow-hidden"
           >
-            <CardTitle className="absolute top-4 left-5 z-10 text-[#0AE448] duration-300 ease-in-out xl:text-[25px] lg:text-[25px] md:text-[25px] text-[20px]">
+            <CardTitle className="absolute xl:top-4 xl:left-5 lg:top-4 lg:left-5 md:top-4 md:left-5 top-2 left-3 z-10 text-[#0AE448] duration-300 ease-in-out xl:text-[25px] lg:text-[25px] md:text-[25px] text-[20px]">
               {image.name}
             </CardTitle>
             <div
               id="redirect-icon"
-              className="absolute flex items-center justify-center lg:top-[-50px] lg:right-[-50px] xl:top-[-50px] xl:right-[-50px] md:top-4 md:right-4 top-4 right-4 p-2 xl:w-10 xl:h-10 lg:w-10 mlg:h-10 md:w-10 md:h-10 w-8 h-8 z-10 bg-white hover:bg-[#0AE448] rounded-full duration-500 ease-in-out cursor-pointer"
+              className="absolute flex items-center justify-center lg:top-[-50px] lg:right-[-50px] xl:top-[-50px] xl:right-[-50px] md:top-4 md:right-4 top-3 right-3 p-2 xl:w-10 xl:h-10 lg:w-10 mlg:h-10 md:w-10 md:h-10 w-8 h-8 z-10 bg-white hover:bg-[#0AE448] rounded-full duration-500 ease-in-out cursor-pointer"
             >
               <ArrowOutwardIcon />
             </div>
-            <p className="absolute bottom-4 right-4 z-10 text-black bg-[#0AE448] border border-1 border-black rounded-full px-3 py-1">
+            <p className="absolute xl:bottom-4 xl:right-4 lg:bottom-4 lg:right-4 md:bottom-4 md:right-4 bottom-2 right-2 z-10 text-black bg-[#0AE448] border border-1 border-black rounded-full px-2 py-1">
               {image.duration}
             </p>
             <img

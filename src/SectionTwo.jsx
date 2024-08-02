@@ -4,7 +4,10 @@ import gsap from "gsap";
 import Lenis from "@studio-freight/lenis";
 import SplitType from "split-type";
 import { ScrollTrigger } from "gsap/all";
-import block1 from "/block-1.jpg";
+import block4 from "/block-4.jpg";
+import block5 from "/block-5.jpg";
+import block6 from "/block-6.jpg";
+import block7 from "/block-7.jpg";
 import {
   Card,
   CardContent,
@@ -90,14 +93,14 @@ const SectionTwo = () => {
     { text: "Animation", id: 3 },
     { text: "UI/UX Design", id: 4 },
     { text: "Illustration", id: 5 },
-    { text: "Web Applications", id: 6 },
+    { text: "Web Design", id: 6 },
   ];
 
   const images = [
-    { name: "Animation", src: block1, duration: "3 months" },
-    { name: "Animation", src: block1, duration: "3 months" },
-    { name: "Animation", src: block1, duration: "3 months" },
-    { name: "Animation", src: block1, duration: "3 months" },
+    { name: "HTML5", src: block4, duration: "3 months" },
+    { name: "Illustration", src: block5, duration: "3 months" },
+    { name: "Photography", src: block6, duration: "3 months" },
+    { name: "UI/UX Design", src: block7, duration: "3 months" },
   ];
 
   return (
@@ -136,29 +139,33 @@ const SectionTwo = () => {
       </div>
       <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-3">
         {images.map((image) => (
-          <Card
-            id="card-redirect"
-            key={image.name}
-            className="flex relative w-full aspect-square overflow-hidden"
-          >
-            <CardTitle className="absolute xl:top-4 xl:left-5 lg:top-4 lg:left-5 md:top-4 md:left-5 top-2 left-3 z-10 text-[#0AE448] duration-300 ease-in-out xl:text-[25px] lg:text-[25px] md:text-[25px] text-[20px]">
-              {image.name}
-            </CardTitle>
-            <div
-              id="redirect-icon"
-              className="absolute flex items-center justify-center lg:top-[-50px] lg:right-[-50px] xl:top-[-50px] xl:right-[-50px] md:top-4 md:right-4 top-3 right-3 p-2 xl:w-10 xl:h-10 lg:w-10 mlg:h-10 md:w-10 md:h-10 w-8 h-8 z-10 bg-white hover:bg-[#0AE448] rounded-full duration-500 ease-in-out cursor-pointer"
+          <div key={image.name} className="flex flex-col">
+            <Card
+              id="card-redirect"
+              className="flex relative w-full aspect-square overflow-hidden"
             >
-              <ArrowOutwardIcon />
+              <div
+                id="redirect-icon"
+                className="absolute flex items-center justify-center lg:top-[-50px] lg:right-[-50px] xl:top-[-50px] xl:right-[-50px] md:top-4 md:right-4 top-3 right-3 p-2 xl:w-10 xl:h-10 lg:w-10 mlg:h-10 md:w-10 md:h-10 w-8 h-8 z-10 bg-white hover:bg-[#0AE448] rounded-full duration-500 ease-in-out cursor-pointer"
+              >
+                <ArrowOutwardIcon />
+              </div>
+
+              <img
+                src={image.src}
+                className="absolute top-0 left-0 w-full h-full object-cover"
+                alt={image.name}
+              />
+            </Card>
+            <div className="flex flex-row justify-between items-center mt-2">
+              <h3 className="text-[#0AE448] xl:text-[25px] lg:text-[25px] md:text-[20px] text-[18px]">
+                {image.name}
+              </h3>
+              <p className="text-black rounded-full px-2 py-1">
+                {image.duration}
+              </p>
             </div>
-            <p className="absolute xl:bottom-4 xl:right-4 lg:bottom-4 lg:right-4 md:bottom-4 md:right-4 bottom-2 right-2 z-10 text-black bg-[#0AE448] border border-1 border-black rounded-full px-2 py-1">
-              {image.duration}
-            </p>
-            <img
-              src={image.src}
-              className="absolute top-0 left-0 w-full h-full object-cover"
-              alt={image.name}
-            />
-          </Card>
+          </div>
         ))}
       </div>
       {/* <div className="categories-side-hover text-center">

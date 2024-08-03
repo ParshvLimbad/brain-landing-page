@@ -99,14 +99,14 @@ const SectionTwo = () => {
   const images = [
     { name: "HTML5", src: block4, duration: "3 months" },
     { name: "Illustration", src: block5, duration: "3 months" },
-    { name: "Photography", src: block6, duration: "3 months" },
-    { name: "UI/UX Design", src: block7, duration: "3 months" },
+    { name: "Filming", src: block6, duration: "3 months" },
+    { name: "UX Design", src: block7, duration: "3 months" },
   ];
 
   return (
     <section
       ref={sectionRef}
-      className="xl:px-44 md:px-12 px-6 bg-white xl:h-[50rem] lg:h-[50rem] md:h-[35rem] h-[50rem] flex flex-col"
+      className="xl:px-44 md:px-12 px-6 bg-white xl:h-[45rem] lg:h-[45rem] md:h-[35rem] h-[50rem] flex flex-col"
     >
       {/* <h2 className="xl:mt-0 lg:mt-0 mt-12 md:text-[35px] text-[25px] text-center text-white tracking-tight leading-[50px] font-semibold mb-1">
         Unlock Your Potential with Brain.
@@ -137,7 +137,7 @@ const SectionTwo = () => {
           </button>
         ))}
       </div>
-      <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-3">
+      <div className="grid xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-4 grid-cols-2 gap-3">
         {images.map((image) => (
           <div key={image.name} className="flex flex-col">
             <Card

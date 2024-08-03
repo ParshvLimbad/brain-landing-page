@@ -40,7 +40,7 @@ const SectionFour = () => {
   ];
 
   return (
-    <div className="xl:px-44 md:px-12 px-6 mt-24 bg-white flex flex-col items-center">
+    <section className="xl:px-44 md:px-12 px-6 mt-24 bg-white flex flex-col items-center">
       <h2
         className="reveal-type xl:mb-6 lg:mb-6 mb-4 mt-12 lg:text-[50px] md:text-[35px] text-[22px] text-center text-black tracking-tight leading-[50px] font-semibold"
         data-bg-color="white"
@@ -72,7 +72,7 @@ const SectionFour = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

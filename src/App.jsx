@@ -6,7 +6,7 @@ import SectionFour from "./SectionFour";
 
 function App() {
   return (
-    <main className="h-screen bg-black">
+    <main className="h-screen bg-white">
       <SectionOne />
       <SectionTwo />
       <SectionThree />

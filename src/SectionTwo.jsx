@@ -106,13 +106,13 @@ const SectionTwo = () => {
   return (
     <section
       ref={sectionRef}
-      className="xl:px-44 md:px-12 px-6 bg-white xl:h-[45rem] lg:h-[45rem] md:h-[35rem] h-[50rem] flex flex-col"
+      className="xl:px-44 md:px-12 px-6 bg-white xl:h-[45rem] mt-12 lg:h-[45rem] md:h-[35rem] h-[50rem] flex flex-col"
     >
       {/* <h2 className="xl:mt-0 lg:mt-0 mt-12 md:text-[35px] text-[25px] text-center text-white tracking-tight leading-[50px] font-semibold mb-1">
         Unlock Your Potential with Brain.
       </h2> */}
       <h2
-        className="reveal-type xl:mb-10 lg:mb-10 mb-4 mt-12 lg:text-[50px] md:text-[35px] text-[22px] text-center text-white tracking-tight leading-[50px] font-semibold"
+        className="reveal-type xl:mb-10 lg:mb-10 mb-4 lg:text-[50px] md:text-[35px] text-[22px] text-center text-white tracking-tight leading-[50px] font-semibold"
         data-bg-color="white"
         data-fg-color="black"
       >

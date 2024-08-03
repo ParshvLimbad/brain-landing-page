@@ -35,7 +35,7 @@ const SectionThree = () => {
       featureTab,
       { marginTop: 60, filter: "blur(50px)" },
       {
-        marginTop: 20,
+        marginTop: 30,
         duration: 0.3,
         filter: "blur(0px)",
         scrollTrigger: {
@@ -53,14 +53,14 @@ const SectionThree = () => {
   return (
     <section
       ref={section2Ref}
-      className="xl:px-44 md:px-12 px-6 bg-white xl:h-[50rem] lg:h-[50rem] md:h-[35rem] h-[50rem] flex flex-col items-center"
+      className="xl:px-44 md:px-12 px-6 mt-12 bg-white flex flex-col items-center"
     >
       <h2
         className="reveal-type xl:mb-6 lg:mb-6 mb-4 mt-12 lg:text-[50px] md:text-[35px] text-[22px] text-center text-black tracking-tight leading-[50px] font-semibold"
         data-bg-color="white"
         data-fg-color="black"
       >
-        Get the skills needed for in-demand job.
+        Learn skills needed for in-demand job.
       </h2>
       <p className="xl:max-w-[40rem] lg:max-w-[40rem] md:max-w-[33rem] md:text-[14px] text-[14px] text-center text-black">
         In today's job market, being a competitive worker requires more than
@@ -69,7 +69,7 @@ const SectionThree = () => {
       </p>
       <div
         id="features"
-        className="flex xl:flex-row lg:flex-row md:flex-row flex-col xl:w-[80%] lg:w-full w-full xl:gap-0 lg:gap-0 md:gap-0 gap-6 justify-between items-center"
+        className="flex xl:flex-row lg:flex-row md:flex-row flex-col w-full xl:gap-0 lg:gap-0 md:gap-0 gap-6 justify-between items-center"
       >
         {features.map((feature, index) => (
           <React.Fragment key={index}>

@@ -25,13 +25,13 @@ const SectionFour = () => {
         "I learned a lot and immediately applied it at work, gaining a new client.",
     },
     {
-      name: "Simon Smith",
+      name: "Jim Smith",
       img: profile3,
       rating: rating3,
       review: "Great speakers, high-quality lectures, and consistent feedback.",
     },
     {
-      name: "Ashley Sun",
+      name: "Ash Sun",
       img: profile4,
       rating: rating4,
       review:

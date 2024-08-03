@@ -2,6 +2,7 @@ import SectionOne from "./SectionOne";
 import "./App.css";
 import SectionTwo from "./SectionTwo";
 import SectionThree from "./SectionThree";
+import SectionFour from "./SectionFour";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <SectionOne />
       <SectionTwo />
       <SectionThree />
+      <SectionFour />
     </main>
   );
 }

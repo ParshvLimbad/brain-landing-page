@@ -60,7 +60,7 @@ const SectionThree = () => {
         data-bg-color="white"
         data-fg-color="black"
       >
-        Get the skills needed for an in-demand job.
+        Get the skills needed for in-demand job.
       </h2>
       <p className="xl:max-w-[40rem] lg:max-w-[40rem] md:max-w-[33rem] md:text-[14px] text-[14px] text-center text-black">
         In today's job market, being a competitive worker requires more than

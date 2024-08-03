@@ -25,7 +25,7 @@ const SectionFour = () => {
         "I learned a lot and immediately applied it at work, gaining a new client.",
     },
     {
-      name: "Jim Smith",
+      name: "Jim Jam",
       img: profile3,
       rating: rating3,
       review: "Great speakers, high-quality lectures, and consistent feedback.",
